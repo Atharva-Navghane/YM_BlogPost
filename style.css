@@ -9,7 +9,7 @@ body
 {
     background: #FF5A00;
     height: 63px;
-    width: 1440px;
+    
     display: flex;
     align-items: center;
 }
@@ -51,4 +51,64 @@ body
     display: flex;
     flex-direction: row;
     gap: 9px;
+}
+
+.main-image-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main-image
+{
+    width: 1300px;
+    height: 492px;
+    border-radius: 20px;
+}
+
+.share-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.share
+{
+    width: 1275px;
+}
+.logo
+{
+    width: 33px;
+    height: 25px;
+}
+.gmail
+{
+    height: 21px;
+    width: 33px;
+    display: flex;
+    padding-top: 3px;
+}
+.share-logo
+{
+    display: flex;
+    gap: 4px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+}
+
+.content-container
+{
+    display: flex;
+    justify-content: center;
+}
+
+.content
+{
+    width: 1275px;
+}
+
+p
+{
+    font-family: Montserrat;
 }
