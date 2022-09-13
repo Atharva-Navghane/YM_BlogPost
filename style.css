@@ -1,0 +1,54 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.header-container
+{
+    background: #FF5A00;
+    height: 63px;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+.header
+{
+    font-weight: 800;
+    padding-left: 41px;
+}
+.title-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 63px;
+}
+.title
+{
+    width: 1275px;
+    
+}
+.text
+{
+    width: 190px;
+    font-weight: 400;
+    font-size: 42px;
+    font-family: Marmelad;
+}
+.arrow
+{
+    width: 21.88px;
+    height: 21.32px;
+}
+.calender
+{
+    width: 29px;
+    height: 20px;
+}
+.date-group
+{
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
