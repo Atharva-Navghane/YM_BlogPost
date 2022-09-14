@@ -9,7 +9,6 @@ body
 {
     background: #FF5A00;
     height: 63px;
-    
     display: flex;
     align-items: center;
 }
@@ -113,7 +112,7 @@ p
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 30px;
 }
 
