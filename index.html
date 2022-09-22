@@ -16,7 +16,7 @@
             <img class="arrow" src="images/Vectorarrow.png" alt="Click here to go back">
         </div>
     </div>
-
+    <div class="mob">
     <div class="title-container">
         <div class="title">
             <div class="text">
@@ -39,10 +39,10 @@
         <div class="share">
             <div class="text2">Share this article</div>
             <div class="share-logo">
-                <img class = "logo" src="images/Facebook.png" alt="Facebook Logo">
-                <img class = "logo" src="images/Instagram.png" alt="Instagram Logo">
-                <img class = "logo" src="images/WhatsApp.png" alt="WhatsApp Logo">
-                <img class = "gmail" src="images/Gmail.png" alt="Gmail Logo">
+                <img class = "logo" src="images/Facebook.png" alt="Facebook Logo" onclick="openFacebook()">
+                <img class = "logo" src="images/Instagram.png" alt="Instagram Logo" onclick="openInstagram()">
+                <img class = "logo" src="images/WhatsApp.png" alt="WhatsApp Logo" onclick="openWhatsapp()">
+                <img class = "gmail" src="images/Gmail.png" alt="Gmail Logo" onclick="openGmail()">
             </div>
         </div>
     </div>
@@ -56,5 +56,28 @@
             <p>Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum. Morbi in ipsum sit amet pede facilisis laoreet. Donec lacus nunc, viverra nec, blandit vel, egestas et, augue. Vestibulum tincidunt malesuada tellus. Ut ultrices ultrices enim.</p>
         </div>
     </div>
+    </div>
+
+    <script>
+        function openWhatsapp()
+        {
+            window.open('whatsapp://send?text= https://atharva-navghane.github.io/YM_BlogPost/');
+        }
+
+        function openFacebook()
+        {
+            window.open('https://www.facebook.com/sharer/sharer.php?u=https://atharva-navghane.github.io/YM_BlogPost/');
+        }
+
+        function openInstagram()
+        {
+            window.open('instagram://send?text= https://atharva-navghane.github.io/YM_BlogPost/')
+        }
+
+        function openGmail()
+        {
+            window.open('gmail://send?text= https://atharva-navghane.github.io/YM_BlogPost/')
+        }
+    </script>
 </body>
 </html>

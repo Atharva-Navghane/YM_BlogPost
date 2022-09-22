@@ -134,6 +134,7 @@ p
     font-weight: 400;
     font-size: 30px;
     font-family: Marmelad;
+    margin-bottom: 10px;
 }
 
 .title-container
@@ -214,6 +215,16 @@ p
 {
     width: 11px;
     height: 11px;
+}
+
+.mob
+{
+    margin: 15px;
+}
+
+.date-group
+{
+    margin-bottom: 10px;
 }
 
 }
